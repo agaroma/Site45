@@ -1,22 +1,23 @@
+import './style.css';
 
 function Navbar() {
   return (
     <nav className="nav">
       <div className="container">
         <div className="nav-row">
-          <a href="./index.html" className="logo">
+          <a href="#!" className="logo">
             Room45
           </a>
 
           <ul className="nav-list">
-            <li className="nav-item">
-              <a href="./index.html">Головна</a>
+            <li>
+              <a href="#!">Головна</a>
             </li>
-            <li className="nav-item">
-              <a href="./index.html">Новини</a>
+            <li>
+              <a href="#!">Новини</a>
             </li>
-            <li className="nav-item">
-              <a href="./index.html">Жителі</a>
+            <li>
+              <a href="#!">Жителі</a>
             </li>
           </ul>
         </div>

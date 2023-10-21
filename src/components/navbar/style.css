@@ -1,0 +1,33 @@
+.nav {
+    margin-top: 25px;
+}
+
+
+.nav-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+    list-style: none;
+    }
+
+a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav-list {
+    display: flex;
+    gap: 20px;
+
+
+}
+
+.logo {
+    margin-left: 150px;
+    background-color: red;
+    border: 1px solid rebeccapurple;
+}
