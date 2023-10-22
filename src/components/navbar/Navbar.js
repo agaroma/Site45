@@ -1,15 +1,15 @@
-import './style.css';
+import "./style.css";
 
 function Navbar() {
   return (
-    <nav className="nav">
+    <nav className="navbar">
       <div className="container">
-        <div className="nav-row">
-          <a href="#!" className="logo">
-            Room45
-          </a>
+        <a href="#!" className="logo">
+          Room45
+        </a>
 
-          <ul className="nav-list">
+        <div className="navbar-wrap">
+          <ul className="navbar-menu">
             <li>
               <a href="#!">Головна</a>
             </li>
